@@ -1,0 +1,152 @@
+{
+  "download_completed_utc": "2026-11-01T19:38:47.821540+00:00",
+  "bbox_wgs84": [
+    37.63827983245626,
+    55.76475885124319,
+    37.778093378397834,
+    55.856692939405065
+  ],
+  "routing_margin_m": 2000,
+  "osm_api": "https://www.openstreetmap.org/api/0.6/map",
+  "nominatim": "https://nominatim.openstreetmap.org/search",
+  "files": {
+    "bogorodskoe.json": {
+      "bytes": 7032,
+      "sha256": "2dcd6bd2b408cf3a254a77b2e0fc9e47cc106cff6a8deaddc710db6241996d9c"
+    },
+    "osm_00_00.osm": {
+      "bytes": 29411194,
+      "sha256": "f093ff64200eb62233f11be709a97efe399f1386e7be3dbfed4bf9487752ef33"
+    },
+    "osm_00_01.osm": {
+      "bytes": 15395238,
+      "sha256": "dc4fbc94f65c7e36e0f3bf63087055746c6935ec7934a30a279cd918afdd6634"
+    },
+    "osm_00_02.osm": {
+      "bytes": 12207263,
+      "sha256": "5d866032e604576d50d9586f99c3afabded2ba636b352426ae7e953f2c988cb9"
+    },
+    "osm_00_03.osm": {
+      "bytes": 12999077,
+      "sha256": "0a24d44409ea73e30b20d648b9af02feb1e373dab5dcc242c1774ba124618458"
+    },
+    "osm_00_04.osm": {
+      "bytes": 10778458,
+      "sha256": "adfe2afe19f152013a402d1edadc1787de65099cb65cb4028a6f333d7233a8e0"
+    },
+    "osm_01_00.osm": {
+      "bytes": 14418322,
+      "sha256": "93c484cac5b0a7cc9b3adefc788ac10b76b5cee4c752bd04dfef0d39ba3849d4"
+    },
+    "osm_01_01.osm": {
+      "bytes": 11338506,
+      "sha256": "eb56d95e4a2a7f64fd48a63602f2b71b379b5a125acf481c8233aa2823c98031"
+    },
+    "osm_01_02.osm": {
+      "bytes": 8144061,
+      "sha256": "e20588b1fdebeb4d51fd2e16b2e2c0b703a6393ecd350228101f07914fa465d2"
+    },
+    "osm_01_03.osm": {
+      "bytes": 10586791,
+      "sha256": "bb0f90a47563b4d87a0251945861efb145c1b466f2781158b92b68f8177a126a"
+    },
+    "osm_01_04.osm": {
+      "bytes": 15901821,
+      "sha256": "849b3430f35c067878afb014743a80cbceb34447932c7b3e402e32f6cf16538a"
+    },
+    "osm_02_00.osm": {
+      "bytes": 11325302,
+      "sha256": "3ae8d5d4266890aa7d29d52a6e5d0657684cb9e3e0bdb25a9f88a19d29f55fa1"
+    },
+    "osm_02_01.osm": {
+      "bytes": 8176437,
+      "sha256": "3792f750bf037a9a7d15b280911345889822f35d6e3ed1bed9a2dcdec797be5a"
+    },
+    "osm_02_02.osm": {
+      "bytes": 4864097,
+      "sha256": "f5a3e78b45af3db35ed9f731f601c08b2e4829e54c3ad8f3663a0e4aaad938fe"
+    },
+    "osm_02_03.osm": {
+      "bytes": 3973622,
+      "sha256": "5315af7c3fc3f9689ad6fc5568b568842915fe300910bfc96554de4d0e42a6a4"
+    },
+    "osm_02_04.osm": {
+      "bytes": 1688519,
+      "sha256": "d9a3b12452f4647d472c3e833e92e01a447bdc9cfe60498cd50169fabcd0381e"
+    },
+    "osm_03_00.osm": {
+      "bytes": 9619229,
+      "sha256": "536d7780069c4c13b087649b2f782c20fa57f0cf98ad181c09e1ca96c6432c66"
+    },
+    "osm_03_01.osm": {
+      "bytes": 7289545,
+      "sha256": "20d9801e7c7f2de3275c9ef2167a68335a0b6f5ecc0b6a885d428fc8e5d36baf"
+    },
+    "osm_03_02.osm": {
+      "bytes": 5115693,
+      "sha256": "af34f04646f52e22811ee9491cf953cbfdf4969f35e5ada54811ee1ce06a424e"
+    },
+    "osm_03_03.osm": {
+      "bytes": 3897598,
+      "sha256": "a8a50878c366cf66c1f227a8bd2dd2797fa7eb9241584df43d3b4f23be8b8184"
+    },
+    "osm_03_04.osm": {
+      "bytes": 921134,
+      "sha256": "5768aa47eb5f81c0624318ac3759fc58dc86f4a9ba64d55e97478c3c254a629f"
+    },
+    "osm_04_00.osm": {
+      "bytes": 5882759,
+      "sha256": "143882456a7109c5d3cf799010eb969e0118e947ed8ec762178c03350a451304"
+    },
+    "osm_04_01.osm": {
+      "bytes": 8059044,
+      "sha256": "bef0855f3f7d3c229c704bf7c91beb9cdf0eb0978c96464c01d504ea8385415b"
+    },
+    "osm_04_02.osm": {
+      "bytes": 7991073,
+      "sha256": "a477029159e3aa1ffd41529054fd0b5a51e0c6e1cf8b6363090abd8ecf708023"
+    },
+    "osm_04_03.osm": {
+      "bytes": 1361858,
+      "sha256": "71f5818f3b16c907ea30b6eb3dde682e30a4874d454dcc12b4bf37d7582b9b22"
+    },
+    "osm_04_04.osm": {
+      "bytes": 421644,
+      "sha256": "e524023505b0a211e3f940e1df89580886477b3f314f88e37f71c76845ab1bde"
+    },
+    "osm_05_00.osm": {
+      "bytes": 1119852,
+      "sha256": "f093229004be21208dc79ff5bcfdaeb9b83360bfb9751486df2af844b689d030"
+    },
+    "osm_05_01.osm": {
+      "bytes": 4137297,
+      "sha256": "45ecae4e12d756b9fc9d8934cc0f7dd4378550201844c4124127e1266f41c0cc"
+    },
+    "osm_05_02.osm": {
+      "bytes": 3307800,
+      "sha256": "f96bc29eac07bbd19e37b97f2e0070b0b0bf96eaba4cadd1b828fbba97a1a5e8"
+    },
+    "osm_05_03.osm": {
+      "bytes": 2076094,
+      "sha256": "491d8d2487f21a84033c8bc53f22a2b7e7b7f3dc397aac5fc00d08a3b6bedb8f"
+    },
+    "osm_05_04.osm": {
+      "bytes": 1249507,
+      "sha256": "49458b680624927337c796e754b5aad0b15b88e7e3e2671c84f6bf8fe8c78a85"
+    },
+    "preobrazhenskoe.json": {
+      "bytes": 8160,
+      "sha256": "6951bc793bd1b05d04b4cbbef0f6d661839bcae9284ec0aace7cea1adaf31935"
+    },
+    "population.csv": {
+      "bytes": 245,
+      "sha256": "f7d8d9191c66e6deb22951dc3ac1cca8b5db6df7b69ce37f1c67cdf9548457cd"
+    },
+    "population_provenance.json": {
+      "bytes": 938,
+      "sha256": "628583b51700741c94ec78de9defc45dfc5704d7ced5b1eb3a84fbb7b7f0dc22"
+    }
+  },
+  "population_status": "secondary_transcription_not_primary_verified",
+  "official_facilities_status": "data.mos.ru_unreachable_not_loaded"
+}
