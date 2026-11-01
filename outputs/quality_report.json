@@ -1,0 +1,146 @@
+{
+  "status": "preliminary_osm_not_validated_against_data_mos",
+  "walking_kmh": 5,
+  "max_connector_m": 100,
+  "crs": "EPSG:32637",
+  "graph_nodes": 72846,
+  "graph_edges": 88015,
+  "connected_components": 280,
+  "residential_buildings": 713,
+  "facilities": 120,
+  "facilities_by_kind": {
+    "school": 96,
+    "clinic": 24
+  },
+  "facilities_unconnected": 0,
+  "home_floor_imputed": 12,
+  "home_entry_proxy": 226,
+  "homes_disconnected_by_kind": {
+    "school": 4,
+    "clinic": 4
+  },
+  "incomplete_ways_skipped": 0,
+  "incomplete_multipolygons_skipped": 20,
+  "population_source_available": true,
+  "population_provenance": "secondary_wikipedia_citing_rosstat_not_primary_verified",
+  "summary": [
+    {
+      "district": "Богородское",
+      "kind": "clinic",
+      "homes": 452,
+      "population": 108907,
+      "homes_within_10": 171,
+      "people_est_within_10": 48462,
+      "homes_within_15": 167,
+      "people_est_within_15": 27463,
+      "homes_over_15": 112,
+      "people_est_over_15": 31374,
+      "homes_unknown": 2,
+      "people_est_unknown": 1608,
+      "over_15_pct_homes": 24.8
+    },
+    {
+      "district": "Преображенское",
+      "kind": "clinic",
+      "homes": 261,
+      "population": 89475,
+      "homes_within_10": 160,
+      "people_est_within_10": 53128,
+      "homes_within_15": 71,
+      "people_est_within_15": 24298,
+      "homes_over_15": 28,
+      "people_est_over_15": 12032,
+      "homes_unknown": 2,
+      "people_est_unknown": 17,
+      "over_15_pct_homes": 10.7
+    },
+    {
+      "district": "Богородское",
+      "kind": "school",
+      "homes": 452,
+      "population": 108907,
+      "homes_within_10": 425,
+      "people_est_within_10": 94740,
+      "homes_within_15": 20,
+      "people_est_within_15": 10608,
+      "homes_over_15": 5,
+      "people_est_over_15": 1952,
+      "homes_unknown": 2,
+      "people_est_unknown": 1608,
+      "over_15_pct_homes": 1.1
+    },
+    {
+      "district": "Преображенское",
+      "kind": "school",
+      "homes": 261,
+      "population": 89475,
+      "homes_within_10": 256,
+      "people_est_within_10": 88811,
+      "homes_within_15": 3,
+      "people_est_within_15": 647,
+      "homes_over_15": 0,
+      "people_est_over_15": 0,
+      "homes_unknown": 2,
+      "people_est_unknown": 17,
+      "over_15_pct_homes": 0.0
+    }
+  ],
+  "speed_sensitivity": [
+    {
+      "district": "Богородское",
+      "kind": "school",
+      "walking_kmh": 4,
+      "homes_over_15": 17,
+      "people_est_over_15": 8037
+    },
+    {
+      "district": "Богородское",
+      "kind": "school",
+      "walking_kmh": 5,
+      "homes_over_15": 5,
+      "people_est_over_15": 1952
+    },
+    {
+      "district": "Богородское",
+      "kind": "clinic",
+      "walking_kmh": 4,
+      "homes_over_15": 202,
+      "people_est_over_15": 45910
+    },
+    {
+      "district": "Богородское",
+      "kind": "clinic",
+      "walking_kmh": 5,
+      "homes_over_15": 112,
+      "people_est_over_15": 31374
+    },
+    {
+      "district": "Преображенское",
+      "kind": "school",
+      "walking_kmh": 4,
+      "homes_over_15": 0,
+      "people_est_over_15": 0
+    },
+    {
+      "district": "Преображенское",
+      "kind": "school",
+      "walking_kmh": 5,
+      "homes_over_15": 0,
+      "people_est_over_15": 0
+    },
+    {
+      "district": "Преображенское",
+      "kind": "clinic",
+      "walking_kmh": 4,
+      "homes_over_15": 60,
+      "people_est_over_15": 21368
+    },
+    {
+      "district": "Преображенское",
+      "kind": "clinic",
+      "walking_kmh": 5,
+      "homes_over_15": 28,
+      "people_est_over_15": 12032
+    }
+  ]
+}
