@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "metro",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32637" } },
+"features": [
+{ "type": "Feature", "properties": { "hub_id": 1, "entrances": 5, "name": "Электрозаводская" }, "geometry": { "type": "Point", "coordinates": [ 418738.188526960671879, 6182509.639512751251459 ] } },
+{ "type": "Feature", "properties": { "hub_id": 2, "entrances": 14, "name": "Преображенская площадь" }, "geometry": { "type": "Point", "coordinates": [ 419469.121027738321573, 6184127.980630518868566 ] } },
+{ "type": "Feature", "properties": { "hub_id": 3, "entrances": 3, "name": "Семёновская" }, "geometry": { "type": "Point", "coordinates": [ 419723.342293135647196, 6182687.460759405978024 ] } },
+{ "type": "Feature", "properties": { "hub_id": 4, "entrances": 10, "name": "Черкизовская" }, "geometry": { "type": "Point", "coordinates": [ 421346.298053269623779, 6184940.387999603524804 ] } },
+{ "type": "Feature", "properties": { "hub_id": 5, "entrances": 7, "name": "Бульвар Рокоссовского" }, "geometry": { "type": "Point", "coordinates": [ 420710.126707556250039, 6186161.693027032539248 ] } },
+{ "type": "Feature", "properties": { "hub_id": 6, "entrances": 2, "name": "" }, "geometry": { "type": "Point", "coordinates": [ 418705.071337868634146, 6187860.300054686143994 ] } },
+{ "type": "Feature", "properties": { "hub_id": 7, "entrances": 2, "name": "" }, "geometry": { "type": "Point", "coordinates": [ 416637.00809892185498, 6188974.154061689041555 ] } },
+{ "type": "Feature", "properties": { "hub_id": 8, "entrances": 3, "name": "" }, "geometry": { "type": "Point", "coordinates": [ 421246.30731856363127, 6183249.3590785600245 ] } }
+]
+}
