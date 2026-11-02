@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "origin",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32637" } },
+"features": [
+{ "type": "Feature", "properties": { "stop_id": "3949", "name": "Метрогородок", "arrival_seconds": 28800, "elapsed_minutes": 0.0, "lon": 37.76740908, "lat": 55.82880752, "is_origin": true, "service_date": "20261102", "departure": "08:00:00", "route_id": "422", "route_short_name": "13", "scope": "selected-route stop-to-stop; not city accessibility" }, "geometry": { "type": "Point", "coordinates": [ 422788.72751520271413, 6187713.774418313056231 ] } }
+]
+}
