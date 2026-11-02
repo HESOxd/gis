@@ -1,8 +1,8 @@
 .venv/
 __pycache__/
-*.pyc
 .DS_Store
-data/raw/osm_*.osm
-outputs/*.log
 *.qgz~
-*.qgs~
+*.log
+*.partial
+moscow-walk-access/data/raw/*.osm
+moscow-transport-access/data/raw/*.zip
