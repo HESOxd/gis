@@ -359,42 +359,8 @@ def main():
 
 
 def make_maps(boundaries,homes,facilities,roads,parks,water,iso):
-    colors={'within_10':'#25866c','within_15':'#e3b95c','over_15':'#d95650','unknown':'#8c8c94'}
-    for kind,label in [('school','Школы'),('clinic','Поликлиники')]:
-        fig,ax=plt.subplots(figsize=(10,11),facecolor='#f8f6ef')
-        ax.set_facecolor('#f8f6ef')
-        if parks: records_gdf(parks).plot(ax=ax,color='#e1e9da',linewidth=0)
-        if water: records_gdf(water).plot(ax=ax,color='#bbdce3',linewidth=0)
-        records_gdf(roads).plot(ax=ax,color='#d8d7d0',linewidth=.35)
-        layer=[i for i in iso if i['kind']==kind and i['minutes']==15 and not i['geometry'].is_empty]
-        if layer: records_gdf(layer).plot(ax=ax,color='#8ac7b0',alpha=.20,linewidth=0)
-        for status,color in colors.items():
-            subset=[h for h in homes if h[f'{kind}_status']==status]
-            if subset: records_gdf(subset).plot(ax=ax,color=color,linewidth=.15,edgecolor='white')
-        records_gdf(boundaries).boundary.plot(ax=ax,color='#454d55',linewidth=1.15,linestyle='--')
-        fs=[f for f in facilities if f['kind']==kind and any(b['geometry'].buffer(120).covers(f['geometry']) for b in boundaries)]
-        if fs: records_gdf(fs).plot(ax=ax,color='#233c54',marker='P' if kind=='clinic' else 'o',markersize=28,edgecolor='white',linewidth=.6)
-        for b in boundaries:
-            p=b['geometry'].representative_point()
-            ax.annotate(b['district'],(p.x,p.y),xytext=(0,18),textcoords='offset points',fontsize=11,fontweight='bold',ha='center',color='#263746',bbox={'facecolor':'#f8f6ef','edgecolor':'none','alpha':.8,'pad':3})
-        # Landmark for the user's neighbourhood, not a destination in the analysis.
-        metro=PROJECT(37.7137,55.7962)
-        ax.plot(*metro,marker='D',color='#354967',markersize=5)
-        ax.annotate('Преображенская пл.',metro,xytext=(8,-12),textcoords='offset points',fontsize=8,color='#354967')
-        bounds=unary_union([b['geometry'] for b in boundaries]).bounds
-        ax.set_xlim(bounds[0]-130,bounds[2]+130); ax.set_ylim(bounds[1]-130,bounds[3]+130)
-        ax.set_title(f'{label}: 15 минут пешком\nБогородское и Преображенское',loc='left',fontsize=19,fontweight='bold',pad=30,color='#243746')
-        handles=[Patch(facecolor=colors[s],label=l) for s,l in [('within_10','До 10 минут'),('within_15','10–15 минут'),('over_15','Более 15 минут'),('unknown','Нет надёжной привязки / маршрута')]]
-        ax.legend(handles=handles,loc='lower left',fontsize=8,framealpha=.95)
-        x,y=bounds[2]-800,bounds[1]+150
-        ax.plot([x,x+500],[y,y],color='#263746',linewidth=3); ax.text(x+250,y+50,'500 м',ha='center',fontsize=8)
-        ax.annotate('С',xy=(.96,.93),xytext=(.96,.86),xycoords='axes fraction',ha='center',arrowprops={'arrowstyle':'->','color':'#263746'},fontsize=10)
-        ax.set_axis_off()
-        fig.text(.125,.045,'ПРЕДВАРИТЕЛЬНЫЙ АНАЛИЗ • OSM • 01.11.2026 • скорость 5 км/ч',fontsize=8,color='#555d62')
-        fig.text(.125,.026,'Учреждения требуют сверки с data.mos.ru. Цвет — оценка для жилого здания.\n© OpenStreetMap contributors · ODbL 1.0 · EPSG:32637',fontsize=7,color='#666d72')
-        fig.savefig(OUT/f'{kind}_access.png',dpi=180,bbox_inches='tight',facecolor=fig.get_facecolor())
-        fig.savefig(OUT/f'{kind}_access.svg',bbox_inches='tight',facecolor=fig.get_facecolor())
-        plt.close(fig)
+    from plot import render
+    render()
 
 
 if __name__=='__main__':

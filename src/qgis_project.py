@@ -64,6 +64,8 @@ for group in root.findGroups():
         # Current order facilities, isochrones, homes; swap homes and corridors.
         home_node=next(c for c in group.children() if c.name()=='Доступность: жилые здания')
         clone=home_node.clone(); group.removeChildNode(home_node); group.insertChildNode(1,clone)
+from qgis_context import apply_context
+apply_context(project,ROOT)
 project.viewSettings().setDefaultViewExtent(__import__('qgis.core',fromlist=['QgsReferencedRectangle']).QgsReferencedRectangle(QgsRectangle(districts.extent()),project.crs()))
 project.setMetadata(project.metadata())
 if not project.write(): raise RuntimeError('Cannot write project')
