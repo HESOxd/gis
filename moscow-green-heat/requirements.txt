@@ -1,0 +1,8 @@
+geopandas>=1.0,<2
+numpy>=2,<3
+pandas>=2,<4
+rasterio>=1.4,<2
+scipy>=1.14,<2
+matplotlib>=3.9,<4
+requests>=2.32,<3
+planetary-computer==1.0.0
