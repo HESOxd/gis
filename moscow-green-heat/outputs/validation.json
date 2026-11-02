@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "sha_verified_assets": 8,
+  "valid_common_pixels": 9716,
+  "eligible_300m_cells": 96,
+  "qgis_relative_paths": true,
+  "checks": [
+    "raw ST scaling",
+    "QA bits, uncertainty, cloud distance",
+    "paired support",
+    "geometry and CRS",
+    "district pixel conservation",
+    "cell screening",
+    "residential top5 and spacing",
+    "QGIS portable sources"
+  ]
+}

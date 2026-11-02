@@ -1,0 +1,47 @@
+{
+  "grid_300m": {
+    "cells": 96,
+    "pearson_r": -0.8118526543443043,
+    "spearman_rho": -0.7552631578947369,
+    "note": "Descriptive only: spatially dependent cells, one scene pair; no causal or independent-sample significance claim."
+  },
+  "grid_600m": {
+    "cells": 21,
+    "pearson_r": -0.8854865552851171,
+    "spearman_rho": -0.8233766233766234,
+    "note": "Descriptive only: spatially dependent cells, one scene pair; no causal or independent-sample significance claim."
+  },
+  "main_cloud_distance_km": 0.5,
+  "main_max_uncertainty_k": 5,
+  "min_cell_valid_fraction": 0.7,
+  "min_cell_pixels": 30,
+  "priority_thresholds": {
+    "lst_upper_quartile_c": 34.76761054992676,
+    "ndvi_lower_quartile": 0.3693634420633316
+  },
+  "hot_low_green_cells": 15,
+  "residential_candidates": 80,
+  "priority_cells": 5,
+  "district_coverage": [
+    {
+      "district": "Богородское",
+      "valid_fraction": 0.547971799325636,
+      "mean_ndvi": 0.533342719078064,
+      "mean_lst_c": 30.68088150024414,
+      "mean_uncertainty_k": 3.440798044204712
+    },
+    {
+      "district": "Преображенское",
+      "valid_fraction": 0.704368932038835,
+      "mean_ndvi": 0.44979774951934814,
+      "mean_lst_c": 34.24080276489258,
+      "mean_uncertainty_k": 3.4141647815704346
+    }
+  ],
+  "uncertainty_4k_grid300": {
+    "cells": 96,
+    "pearson_r": -0.812093346369736,
+    "spearman_rho": -0.7575013564839935,
+    "note": "Descriptive only: spatially dependent cells, one scene pair; no causal or independent-sample significance claim."
+  }
+}

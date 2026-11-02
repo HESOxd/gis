@@ -1,0 +1,16 @@
+{
+  "valid_layers": 13,
+  "reopened": true,
+  "relative_paths": true,
+  "reader_layouts": [
+    "Портфолио · Температура поверхности",
+    "Портфолио · Растительность",
+    "Портфолио · Приоритеты озеленения",
+    "Портфолио · Зелень и нагрев · связь"
+  ],
+  "unchanged_analytical_files": 40,
+  "source_syntax_valid": true,
+  "presentation_only": true,
+  "all_outputs_regenerated": true,
+  "gallery": "../portfolio-maps/all-maps-city.html"
+}

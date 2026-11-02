@@ -1,0 +1,119 @@
+{
+  "sentinel_scene": "S2A_37UDB_20250726_0_L2A",
+  "landsat_scene": "LC09_L2SP_178021_20250725_02_T1",
+  "sentinel_effective_scale": 0.0001,
+  "sentinel_effective_offset": 0,
+  "metadata_offset_ignored_because_already_applied": true,
+  "ndvi_native_m": 10,
+  "lst_grid_m": 30,
+  "lst_sensor_native_m": 100,
+  "district_pixels": 15967,
+  "joint_valid_pixels": 9716,
+  "district_valid_fraction": 0.6085050416483998,
+  "sensitivity": [
+    {
+      "max_st_uncertainty_k": 2,
+      "min_cloud_distance_km": 0,
+      "valid_pixels": 0,
+      "fraction_of_district_area_pixels": 0.0
+    },
+    {
+      "max_st_uncertainty_k": 2,
+      "min_cloud_distance_km": 0.3,
+      "valid_pixels": 0,
+      "fraction_of_district_area_pixels": 0.0
+    },
+    {
+      "max_st_uncertainty_k": 2,
+      "min_cloud_distance_km": 0.5,
+      "valid_pixels": 0,
+      "fraction_of_district_area_pixels": 0.0
+    },
+    {
+      "max_st_uncertainty_k": 2,
+      "min_cloud_distance_km": 1,
+      "valid_pixels": 0,
+      "fraction_of_district_area_pixels": 0.0
+    },
+    {
+      "max_st_uncertainty_k": 3,
+      "min_cloud_distance_km": 0,
+      "valid_pixels": 66,
+      "fraction_of_district_area_pixels": 0.004133525396129517
+    },
+    {
+      "max_st_uncertainty_k": 3,
+      "min_cloud_distance_km": 0.3,
+      "valid_pixels": 66,
+      "fraction_of_district_area_pixels": 0.004133525396129517
+    },
+    {
+      "max_st_uncertainty_k": 3,
+      "min_cloud_distance_km": 0.5,
+      "valid_pixels": 66,
+      "fraction_of_district_area_pixels": 0.004133525396129517
+    },
+    {
+      "max_st_uncertainty_k": 3,
+      "min_cloud_distance_km": 1,
+      "valid_pixels": 66,
+      "fraction_of_district_area_pixels": 0.004133525396129517
+    },
+    {
+      "max_st_uncertainty_k": 4,
+      "min_cloud_distance_km": 0,
+      "valid_pixels": 9858,
+      "fraction_of_district_area_pixels": 0.6173983841673452
+    },
+    {
+      "max_st_uncertainty_k": 4,
+      "min_cloud_distance_km": 0.3,
+      "valid_pixels": 9858,
+      "fraction_of_district_area_pixels": 0.6173983841673452
+    },
+    {
+      "max_st_uncertainty_k": 4,
+      "min_cloud_distance_km": 0.5,
+      "valid_pixels": 9650,
+      "fraction_of_district_area_pixels": 0.6043715162522703
+    },
+    {
+      "max_st_uncertainty_k": 4,
+      "min_cloud_distance_km": 1,
+      "valid_pixels": 5557,
+      "fraction_of_district_area_pixels": 0.3480303125195716
+    },
+    {
+      "max_st_uncertainty_k": 5,
+      "min_cloud_distance_km": 0,
+      "valid_pixels": 10966,
+      "fraction_of_district_area_pixels": 0.6867915074841862
+    },
+    {
+      "max_st_uncertainty_k": 5,
+      "min_cloud_distance_km": 0.3,
+      "valid_pixels": 10843,
+      "fraction_of_district_area_pixels": 0.6790881192459448
+    },
+    {
+      "max_st_uncertainty_k": 5,
+      "min_cloud_distance_km": 0.5,
+      "valid_pixels": 9716,
+      "fraction_of_district_area_pixels": 0.6085050416483998
+    },
+    {
+      "max_st_uncertainty_k": 5,
+      "min_cloud_distance_km": 1,
+      "valid_pixels": 5564,
+      "fraction_of_district_area_pixels": 0.348468716728252
+    }
+  ],
+  "lst_valid_range_c": [
+    21.84388826000003,
+    46.029797780000024
+  ],
+  "ndvi_joint_range": [
+    -0.06873277574777603,
+    0.8962860703468323
+  ]
+}
