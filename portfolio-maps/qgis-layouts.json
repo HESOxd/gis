@@ -1,0 +1,39 @@
+{
+  "moscow-walk-access": {
+    "valid_layers": 13,
+    "reopened": true,
+    "relative_paths": true,
+    "reader_layouts": [
+      "Портфолио · Школы · 15 минут пешком",
+      "Портфолио · Поликлиники · 15 минут пешком"
+    ]
+  },
+  "moscow-green-heat": {
+    "valid_layers": 13,
+    "reopened": true,
+    "relative_paths": true,
+    "reader_layouts": [
+      "Портфолио · Температура поверхности",
+      "Портфолио · Растительность",
+      "Портфолио · Приоритеты озеленения",
+      "Портфолио · Зелень и нагрев · связь"
+    ]
+  },
+  "moscow-location-analysis": {
+    "valid_layers": 11,
+    "reopened": true,
+    "relative_paths": true,
+    "reader_layouts": [
+      "Портфолио · Места для кофейни",
+      "Портфолио · Устойчивость выбора"
+    ]
+  },
+  "moscow-transport-access": {
+    "valid_layers": 7,
+    "reopened": true,
+    "relative_paths": true,
+    "reader_layouts": [
+      "Портфолио · Трамвай 13 · остановочный пилот"
+    ]
+  }
+}

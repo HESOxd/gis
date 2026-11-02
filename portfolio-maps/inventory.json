@@ -1,0 +1,65 @@
+[
+  {
+    "id": "01-school-city",
+    "title": "Школы: где дольше 15 минут",
+    "kind": "Карта",
+    "source": "moscow-walk-access/outputs/school_access.png",
+    "png_sha256": "b3cadc32e674122a0dc61883d39144920011cf9e28f3e3a2a2dd34fd41a0cf26"
+  },
+  {
+    "id": "02-clinic-city",
+    "title": "Поликлиники: где дольше 15 минут",
+    "kind": "Карта",
+    "source": "moscow-walk-access/outputs/clinic_access.png",
+    "png_sha256": "cf1f474bdaa8672330324dbeef1d61728051b7e23b1388a8b9186c392d946bdd"
+  },
+  {
+    "id": "03-coffee-city",
+    "title": "Где проверить место для кофейни",
+    "kind": "Карта",
+    "source": "moscow-location-analysis/outputs/location_ranking.png",
+    "png_sha256": "02f043904701d5479d2406898d93fd7f5abe6bef47e3e2f0befddd5bb9d06a84"
+  },
+  {
+    "id": "04-location-stability",
+    "title": "Устойчивость выбранных мест",
+    "kind": "Диаграмма",
+    "source": "moscow-location-analysis/outputs/top5_sensitivity.png",
+    "png_sha256": "74fe72508930c08058834fd0ef16c0b69917d2bda3401d743681ec50b068725a"
+  },
+  {
+    "id": "05-tram-city",
+    "title": "Трамвай 13: остановочный пилот",
+    "kind": "Карта",
+    "source": "moscow-transport-access/outputs/tram13_stop_pilot_map.png",
+    "png_sha256": "403f12ecc5f9a93bfa9f244565f09986a1221c6bd571530138dd1fe5ca3a9a8d"
+  },
+  {
+    "id": "06-heat-city",
+    "title": "Где сильнее нагревается поверхность",
+    "kind": "Карта",
+    "source": "moscow-green-heat/outputs/surface_temperature_map.png",
+    "png_sha256": "f7bf53dcca58b73c519f9b9932dc317ef09fffaa61e537b2c5458f1ea1166b0e"
+  },
+  {
+    "id": "07-vegetation-city",
+    "title": "Где больше растительности",
+    "kind": "Карта",
+    "source": "moscow-green-heat/outputs/ndvi_map.png",
+    "png_sha256": "36600c2176ce101ff3f849e4b7404fd10e4656eff9055f051a2dfecdc6e5dbad"
+  },
+  {
+    "id": "08-greening-city",
+    "title": "Где проверить возможность озеленения",
+    "kind": "Карта",
+    "source": "moscow-green-heat/outputs/greening_priorities_map.png",
+    "png_sha256": "8e24e41c400dc99d35ea34cb64cd37c1111710bce4afd285396fefc3eb6cdba6"
+  },
+  {
+    "id": "09-green-heat-relation",
+    "title": "Зелень и температура: как связаны",
+    "kind": "Диаграмма",
+    "source": "moscow-green-heat/outputs/ndvi_lst_scatter.png",
+    "png_sha256": "cdcf66c75b018cd5b74be1df8630360760b325fd541cdd51aa822970b935453c"
+  }
+]

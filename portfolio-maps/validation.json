@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "projects": 4,
+  "maps": 7,
+  "charts": 2,
+  "figures": 9,
+  "gallery_embedded_images": 9,
+  "copies_match_current_outputs": true,
+  "interactive_homes": 713,
+  "interactive_reading_panel": true,
+  "source_syntax": true,
+  "browser_preview": "not performed; file URL not permitted by browser policy",
+  "validation": "static HTML structure, PNG visual review, exact output hashes; native QGIS validation stored separately"
+}
