@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "layers": 7,
+  "stops": 46,
+  "checks": [
+    "JSON/CSV/GPKG arrival equality",
+    "coordinate roundtrip",
+    "CRS and valid geometries",
+    "origin identity and zero time",
+    "relative QGIS paths",
+    "independent timetable cross-check"
+  ],
+  "scope": "partial pilot; full city-centre and three-mode comparison not completed"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "unit_tests": 5,
+  "real_route_id": "422",
+  "route_name": "13",
+  "service_date": "20261102",
+  "origin_stop": "3949",
+  "connections": 5954,
+  "reached_stops": 46,
+  "scope": "surface stop-to-stop reference pilot only; no full Moscow accessibility map"
+}

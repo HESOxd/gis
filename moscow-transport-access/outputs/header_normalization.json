@@ -1,0 +1,63 @@
+{
+  "operation": "remove_only_empty_name_columns_with_empty_values",
+  "semantic_schedule_changes": false,
+  "source_sha256": "dec3ec0ccc2efb7f1327ee6f26a0636a4a271494490e6debedcb2c1ccc579e76",
+  "normalized_sha256": "479b2d105ed0a53e620d24b6761c5d6ef9d7ca443f26b0c5be78825ff8ab89bc",
+  "changes": [
+    {
+      "file": "agency.txt",
+      "removed_empty_column_indexes": [
+        5
+      ],
+      "rows": 5,
+      "nonempty_discarded_values": 0,
+      "bad_width_rows": 0
+    },
+    {
+      "file": "calendar.txt",
+      "removed_empty_column_indexes": [
+        11
+      ],
+      "rows": 2100,
+      "nonempty_discarded_values": 0,
+      "bad_width_rows": 0
+    },
+    {
+      "file": "routes.txt",
+      "removed_empty_column_indexes": [
+        8
+      ],
+      "rows": 877,
+      "nonempty_discarded_values": 0,
+      "bad_width_rows": 0
+    },
+    {
+      "file": "stops.txt",
+      "removed_empty_column_indexes": [
+        10
+      ],
+      "rows": 17896,
+      "nonempty_discarded_values": 0,
+      "bad_width_rows": 0
+    },
+    {
+      "file": "stop_times.txt",
+      "removed_empty_column_indexes": [
+        12
+      ],
+      "rows": 6227078,
+      "nonempty_discarded_values": 0,
+      "bad_width_rows": 0
+    },
+    {
+      "file": "trips.txt",
+      "removed_empty_column_indexes": [
+        9
+      ],
+      "rows": 224851,
+      "nonempty_discarded_values": 0,
+      "bad_width_rows": 0
+    }
+  ],
+  "note": "This does not establish licensing, freshness, completeness or full GTFS validity."
+}

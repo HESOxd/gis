@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "reference": "repeated whole-trip relaxation, reverse trip order",
+  "passes": 4,
+  "connections": 5954,
+  "reached_stops": 46,
+  "matched_all_arrival_times": true
+}

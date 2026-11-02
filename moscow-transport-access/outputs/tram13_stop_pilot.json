@@ -1,0 +1,298 @@
+{
+  "status": "SCOPED_SURFACE_STOP_TO_STOP_PILOT",
+  "service_date": "20261102",
+  "departure": "08:00:00",
+  "route_ids": [
+    "422"
+  ],
+  "origin_stop": "3949",
+  "connections": 5954,
+  "minimum_transfer_seconds": 120,
+  "limitations": [
+    "selected routes only",
+    "same-stop transfers only",
+    "no walking access or egress",
+    "no metro or MCD",
+    "no previous-service-day carryover",
+    "no realtime delays",
+    "community archive freshness unverified"
+  ],
+  "arrivals": [
+    {
+      "stop_id": "3949",
+      "name": "Метрогородок",
+      "arrival_seconds": 28800,
+      "elapsed_minutes": 0.0
+    },
+    {
+      "stop_id": "5365",
+      "name": "Метрогородок",
+      "arrival_seconds": 28860,
+      "elapsed_minutes": 1.0
+    },
+    {
+      "stop_id": "3948",
+      "name": "Детские ясли-сад",
+      "arrival_seconds": 29040,
+      "elapsed_minutes": 4.0
+    },
+    {
+      "stop_id": "3923",
+      "name": "Монтажная ул.",
+      "arrival_seconds": 29100,
+      "elapsed_minutes": 5.0
+    },
+    {
+      "stop_id": "3924",
+      "name": "Консультативно-диагностический центр",
+      "arrival_seconds": 29160,
+      "elapsed_minutes": 6.0
+    },
+    {
+      "stop_id": "3925",
+      "name": "Тагильская ул.",
+      "arrival_seconds": 29280,
+      "elapsed_minutes": 8.0
+    },
+    {
+      "stop_id": "3944",
+      "name": "Плодоовощной комбинат",
+      "arrival_seconds": 29340,
+      "elapsed_minutes": 9.0
+    },
+    {
+      "stop_id": "7110",
+      "name": "Метро «Бульвар Рокоссовского»",
+      "arrival_seconds": 29460,
+      "elapsed_minutes": 11.0
+    },
+    {
+      "stop_id": "3706",
+      "name": "Районный центр «Янтарь»",
+      "arrival_seconds": 29520,
+      "elapsed_minutes": 12.0
+    },
+    {
+      "stop_id": "8696",
+      "name": "Просторная ул.",
+      "arrival_seconds": 29580,
+      "elapsed_minutes": 13.0
+    },
+    {
+      "stop_id": "3705",
+      "name": "Черкизово",
+      "arrival_seconds": 29700,
+      "elapsed_minutes": 15.0
+    },
+    {
+      "stop_id": "3704",
+      "name": "Халтуринская ул.",
+      "arrival_seconds": 29760,
+      "elapsed_minutes": 16.0
+    },
+    {
+      "stop_id": "1002231",
+      "name": "Зельев переулок",
+      "arrival_seconds": 29880,
+      "elapsed_minutes": 18.0
+    },
+    {
+      "stop_id": "14882",
+      "name": "Метро «Преображенская площадь»",
+      "arrival_seconds": 29940,
+      "elapsed_minutes": 19.0
+    },
+    {
+      "stop_id": "6242",
+      "name": "Преображенская площадь",
+      "arrival_seconds": 30120,
+      "elapsed_minutes": 22.0
+    },
+    {
+      "stop_id": "3445",
+      "name": "Трамв. депо им. Русакова",
+      "arrival_seconds": 30240,
+      "elapsed_minutes": 24.0
+    },
+    {
+      "stop_id": "6365",
+      "name": "Малая Остроумовская улица",
+      "arrival_seconds": 30360,
+      "elapsed_minutes": 26.0
+    },
+    {
+      "stop_id": "6366",
+      "name": "Клуб Русакова - Сцена «Мельников»",
+      "arrival_seconds": 30420,
+      "elapsed_minutes": 27.0
+    },
+    {
+      "stop_id": "1002188",
+      "name": "Метро «Сокольники»",
+      "arrival_seconds": 30480,
+      "elapsed_minutes": 28.0
+    },
+    {
+      "stop_id": "6164",
+      "name": "МЦД Митьково",
+      "arrival_seconds": 30600,
+      "elapsed_minutes": 30.0
+    },
+    {
+      "stop_id": "6165",
+      "name": "Леснорядская улица",
+      "arrival_seconds": 30720,
+      "elapsed_minutes": 32.0
+    },
+    {
+      "stop_id": "6166",
+      "name": "Метро «Красносельская»",
+      "arrival_seconds": 30840,
+      "elapsed_minutes": 34.0
+    },
+    {
+      "stop_id": "13919",
+      "name": "Метро «Комсомольская»",
+      "arrival_seconds": 31020,
+      "elapsed_minutes": 37.0
+    },
+    {
+      "stop_id": "5339",
+      "name": "Каланчёвская улица",
+      "arrival_seconds": 31200,
+      "elapsed_minutes": 40.0
+    },
+    {
+      "stop_id": "3422",
+      "name": "Каланчёвская улица",
+      "arrival_seconds": 31740,
+      "elapsed_minutes": 49.0
+    },
+    {
+      "stop_id": "13920",
+      "name": "Метро «Комсомольская»",
+      "arrival_seconds": 31920,
+      "elapsed_minutes": 52.0
+    },
+    {
+      "stop_id": "4190",
+      "name": "Метро «Красносельская»",
+      "arrival_seconds": 32100,
+      "elapsed_minutes": 55.0
+    },
+    {
+      "stop_id": "6760",
+      "name": "Леснорядская улица",
+      "arrival_seconds": 32220,
+      "elapsed_minutes": 57.0
+    },
+    {
+      "stop_id": "6157",
+      "name": "МЦД Митьково",
+      "arrival_seconds": 32340,
+      "elapsed_minutes": 59.0
+    },
+    {
+      "stop_id": "14018",
+      "name": "Метро «Сокольники»",
+      "arrival_seconds": 32400,
+      "elapsed_minutes": 60.0
+    },
+    {
+      "stop_id": "3702",
+      "name": "Клуб Русакова - Сцена «Мельников»",
+      "arrival_seconds": 32520,
+      "elapsed_minutes": 62.0
+    },
+    {
+      "stop_id": "6158",
+      "name": "М. Остроумовская ул.",
+      "arrival_seconds": 32640,
+      "elapsed_minutes": 64.0
+    },
+    {
+      "stop_id": "6159",
+      "name": "Трамвайное депо имени Русакова",
+      "arrival_seconds": 32760,
+      "elapsed_minutes": 66.0
+    },
+    {
+      "stop_id": "3703",
+      "name": "Преображенская площадь",
+      "arrival_seconds": 32880,
+      "elapsed_minutes": 68.0
+    },
+    {
+      "stop_id": "6241",
+      "name": "Метро «Преображенская площадь»",
+      "arrival_seconds": 33000,
+      "elapsed_minutes": 70.0
+    },
+    {
+      "stop_id": "1002232",
+      "name": "Зельев пер.",
+      "arrival_seconds": 33060,
+      "elapsed_minutes": 71.0
+    },
+    {
+      "stop_id": "10492",
+      "name": "Халтуринская ул.",
+      "arrival_seconds": 33180,
+      "elapsed_minutes": 73.0
+    },
+    {
+      "stop_id": "3660",
+      "name": "Черкизово",
+      "arrival_seconds": 33240,
+      "elapsed_minutes": 74.0
+    },
+    {
+      "stop_id": "8697",
+      "name": "Просторная ул.",
+      "arrival_seconds": 33360,
+      "elapsed_minutes": 76.0
+    },
+    {
+      "stop_id": "6244",
+      "name": "Районный центр «Янтарь»",
+      "arrival_seconds": 33420,
+      "elapsed_minutes": 77.0
+    },
+    {
+      "stop_id": "7118",
+      "name": "Метро «Бульвар Рокоссовского»",
+      "arrival_seconds": 33540,
+      "elapsed_minutes": 79.0
+    },
+    {
+      "stop_id": "3926",
+      "name": "Плодоовощной комбинат",
+      "arrival_seconds": 33660,
+      "elapsed_minutes": 81.0
+    },
+    {
+      "stop_id": "3945",
+      "name": "Тагильская улица",
+      "arrival_seconds": 33780,
+      "elapsed_minutes": 83.0
+    },
+    {
+      "stop_id": "3946",
+      "name": "Консультативно-диагностический центр",
+      "arrival_seconds": 33840,
+      "elapsed_minutes": 84.0
+    },
+    {
+      "stop_id": "3947",
+      "name": "Монтажная ул.",
+      "arrival_seconds": 33900,
+      "elapsed_minutes": 85.0
+    },
+    {
+      "stop_id": "6245",
+      "name": "Детские ясли-сад",
+      "arrival_seconds": 33960,
+      "elapsed_minutes": 86.0
+    }
+  ]
+}

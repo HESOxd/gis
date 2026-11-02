@@ -1,0 +1,573 @@
+{
+  "source": "Mobility Database mdb-3226 / community feed",
+  "archive_url": "https://files.mobilitydatabase.org/mdb-3226/mdb-3226-202606301640/mdb-3226-202606301640.zip",
+  "sha256": "dec3ec0ccc2efb7f1327ee6f26a0636a4a271494490e6debedcb2c1ccc579e76",
+  "archive_bytes": 68376874,
+  "files": {
+    "agency.txt": {
+      "uncompressed_bytes": 469,
+      "columns": [
+        "global_id",
+        "agency_id",
+        "agency_name",
+        "agency_url",
+        "agency_timezone",
+        ""
+      ],
+      "sample": [
+        {
+          "global_id": "1048728137",
+          "agency_id": "1",
+          "agency_name": "ГУП \"Мосгортранс",
+          "agency_url": "http://www.mosgortrans.ru",
+          "agency_timezone": "Europe/Moscow",
+          "": ""
+        },
+        {
+          "global_id": "1048728139",
+          "agency_id": "61",
+          "agency_name": "ООО \"Трансавтолиз",
+          "agency_url": "",
+          "agency_timezone": "Europe/Moscow",
+          "": ""
+        },
+        {
+          "global_id": "1048728140",
+          "agency_id": "101",
+          "agency_name": "ООО \"Таксомоторный парк № 20",
+          "agency_url": "",
+          "agency_timezone": "Europe/Moscow",
+          "": ""
+        }
+      ]
+    },
+    "calendar.txt": {
+      "uncompressed_bytes": 156977,
+      "columns": [
+        "global_id",
+        "service_id",
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday",
+        "start_date",
+        "end_date",
+        ""
+      ],
+      "sample": [
+        {
+          "global_id": "2390384953",
+          "service_id": "3125296",
+          "monday": "1",
+          "tuesday": "1",
+          "wednesday": "1",
+          "thursday": "1",
+          "friday": "1",
+          "saturday": "0",
+          "sunday": "0",
+          "start_date": "20221029",
+          "end_date": "20301231",
+          "": ""
+        },
+        {
+          "global_id": "2390384954",
+          "service_id": "3125297",
+          "monday": "0",
+          "tuesday": "0",
+          "wednesday": "0",
+          "thursday": "0",
+          "friday": "0",
+          "saturday": "1",
+          "sunday": "0",
+          "start_date": "20221029",
+          "end_date": "20301231",
+          "": ""
+        },
+        {
+          "global_id": "2610152988",
+          "service_id": "3136382",
+          "monday": "1",
+          "tuesday": "1",
+          "wednesday": "1",
+          "thursday": "1",
+          "friday": "1",
+          "saturday": "0",
+          "sunday": "0",
+          "start_date": "20230817",
+          "end_date": "20301231",
+          "": ""
+        }
+      ]
+    },
+    "routes.txt": {
+      "uncompressed_bytes": 100289,
+      "columns": [
+        "global_id",
+        "route_id",
+        "agency_id",
+        "route_short_name",
+        "route_long_name",
+        "route_type",
+        "route_desc",
+        "route_union",
+        ""
+      ],
+      "sample": [
+        {
+          "global_id": "835474440",
+          "route_id": "1229",
+          "agency_id": "1",
+          "route_short_name": "н4",
+          "route_long_name": "Новокосино - Метро «Китай-город»",
+          "route_type": "3",
+          "route_desc": "",
+          "route_union": "",
+          "": ""
+        },
+        {
+          "global_id": "835474443",
+          "route_id": "1178",
+          "agency_id": "1",
+          "route_short_name": "м5",
+          "route_long_name": "Стадион «Лужники»  - Метро «Достоевская»",
+          "route_type": "3",
+          "route_desc": "",
+          "route_union": "",
+          "": ""
+        },
+        {
+          "global_id": "835474459",
+          "route_id": "202",
+          "agency_id": "1",
+          "route_short_name": "279",
+          "route_long_name": "2-й микрорайон Жулебина - Метро «Нижегородская»",
+          "route_type": "3",
+          "route_desc": "",
+          "route_union": "",
+          "": ""
+        }
+      ]
+    },
+    "stops.txt": {
+      "uncompressed_bytes": 3728866,
+      "columns": [
+        "global_id",
+        "stop_id",
+        "stop_name",
+        "StationName",
+        "Street",
+        "Direction",
+        "Pavilion",
+        "OperatingOrgName",
+        "geoData",
+        "geodata_center",
+        "",
+        "stop_lat",
+        "stop_lon"
+      ],
+      "sample": [
+        {
+          "global_id": "835503875",
+          "stop_id": "3044",
+          "stop_name": "Метро «Тульская» (южн.)",
+          "StationName": "",
+          "Street": "",
+          "Direction": "",
+          "Pavilion": "",
+          "OperatingOrgName": "",
+          "geoData": "{coordinates=[37.62170311, 55.7089038], type=Point}",
+          "geodata_center": "{coordinates=[37.62170311, 55.7089038], type=Point}",
+          "": "",
+          "stop_lat": "55.7089038",
+          "stop_lon": "37.62170311"
+        },
+        {
+          "global_id": "2583703093",
+          "stop_id": "1009734",
+          "stop_name": "Метро «Черкизовская»",
+          "StationName": "",
+          "Street": "",
+          "Direction": "",
+          "Pavilion": "",
+          "OperatingOrgName": "",
+          "geoData": "{coordinates=[37.74501804, 55.80216388], type=Point}",
+          "geodata_center": "{coordinates=[37.74501804, 55.80216388], type=Point}",
+          "": "",
+          "stop_lat": "55.80216388",
+          "stop_lon": "37.74501804"
+        },
+        {
+          "global_id": "2583703094",
+          "stop_id": "1009907",
+          "stop_name": "МФЦ Нагатино-Садовники",
+          "StationName": "",
+          "Street": "",
+          "Direction": "",
+          "Pavilion": "да",
+          "OperatingOrgName": "ГУП Мосгортранс",
+          "geoData": "{coordinates=[37.62951079, 55.68118771], type=Point}",
+          "geodata_center": "{coordinates=[37.62951079, 55.68118771], type=Point}",
+          "": "",
+          "stop_lat": "55.68118771",
+          "stop_lon": "37.62951079"
+        }
+      ]
+    },
+    "stop_times.txt": {
+      "uncompressed_bytes": 551325825,
+      "columns": [
+        "global_id",
+        "stop_times_id",
+        "trip_id",
+        "arrival_time",
+        "departure_time",
+        "stop_id",
+        "shape_dist_traveled",
+        "pickup_type",
+        "stop_headsign",
+        "stop_sequence",
+        "trip_type",
+        "stop_interval",
+        ""
+      ],
+      "sample": [
+        {
+          "global_id": "2391549367",
+          "stop_times_id": "",
+          "trip_id": "951_3125297_5_702",
+          "arrival_time": "10:28:00",
+          "departure_time": "10:28:00",
+          "stop_id": "13817",
+          "shape_dist_traveled": "",
+          "pickup_type": "",
+          "stop_headsign": "",
+          "stop_sequence": "7",
+          "trip_type": "",
+          "stop_interval": "",
+          "": ""
+        },
+        {
+          "global_id": "2391549368",
+          "stop_times_id": "",
+          "trip_id": "951_3125296_3_702",
+          "arrival_time": "08:08:00",
+          "departure_time": "08:08:00",
+          "stop_id": "13817",
+          "shape_dist_traveled": "",
+          "pickup_type": "",
+          "stop_headsign": "",
+          "stop_sequence": "7",
+          "trip_type": "",
+          "stop_interval": "",
+          "": ""
+        },
+        {
+          "global_id": "2391549369",
+          "stop_times_id": "",
+          "trip_id": "951_3125296_18_301",
+          "arrival_time": "20:57:00",
+          "departure_time": "20:57:00",
+          "stop_id": "13817",
+          "shape_dist_traveled": "",
+          "pickup_type": "",
+          "stop_headsign": "",
+          "stop_sequence": "7",
+          "trip_type": "",
+          "stop_interval": "",
+          "": ""
+        }
+      ]
+    },
+    "trips.txt": {
+      "uncompressed_bytes": 16011289,
+      "columns": [
+        "global_id",
+        "route_id",
+        "service_id",
+        "trip_id",
+        "trip_headsign",
+        "direction_id",
+        "block_id",
+        "volume_id",
+        "trip_type",
+        ""
+      ],
+      "sample": [
+        {
+          "global_id": "2390407889",
+          "route_id": "951",
+          "service_id": "3125296",
+          "trip_id": "951_3125296_15_301",
+          "trip_headsign": "",
+          "direction_id": "0",
+          "block_id": "",
+          "volume_id": "",
+          "trip_type": "",
+          "": ""
+        },
+        {
+          "global_id": "2390407890",
+          "route_id": "951",
+          "service_id": "3125296",
+          "trip_id": "951_3125296_3_301",
+          "trip_headsign": "",
+          "direction_id": "0",
+          "block_id": "",
+          "volume_id": "",
+          "trip_type": "",
+          "": ""
+        },
+        {
+          "global_id": "2390407891",
+          "route_id": "951",
+          "service_id": "3125296",
+          "trip_id": "951_3125296_8_703",
+          "trip_headsign": "",
+          "direction_id": "0",
+          "block_id": "",
+          "volume_id": "",
+          "trip_type": "",
+          "": ""
+        }
+      ]
+    }
+  },
+  "license_verified": false,
+  "current_service_date": "20261102",
+  "routes_count": 877,
+  "route_types": {
+    "3": 841,
+    "0": 35,
+    "5": 1
+  },
+  "agencies": [
+    {
+      "global_id": "1048728137",
+      "agency_id": "1",
+      "agency_name": "ГУП \"Мосгортранс",
+      "agency_url": "http://www.mosgortrans.ru",
+      "agency_timezone": "Europe/Moscow",
+      "": ""
+    },
+    {
+      "global_id": "1048728139",
+      "agency_id": "61",
+      "agency_name": "ООО \"Трансавтолиз",
+      "agency_url": "",
+      "agency_timezone": "Europe/Moscow",
+      "": ""
+    },
+    {
+      "global_id": "1048728140",
+      "agency_id": "101",
+      "agency_name": "ООО \"Таксомоторный парк № 20",
+      "agency_url": "",
+      "agency_timezone": "Europe/Moscow",
+      "": ""
+    },
+    {
+      "global_id": "1048728145",
+      "agency_id": "103",
+      "agency_name": "ООО \"Гортакси",
+      "agency_url": "",
+      "agency_timezone": "Europe/Moscow",
+      "": ""
+    },
+    {
+      "global_id": "1062242640",
+      "agency_id": "601",
+      "agency_name": "ООО \"СТАРТРАНС",
+      "agency_url": "",
+      "agency_timezone": "Europe/Moscow",
+      "": ""
+    }
+  ],
+  "calendar_rows": 2100,
+  "calendar_start_min": "20221029",
+  "calendar_end_max": "20301231",
+  "active_services_on_target_date": 604,
+  "stops_count": 17896,
+  "invalid_stop_coordinates": 0,
+  "stops_bbox_lat_lon": [
+    54.43269576,
+    35.50991143,
+    56.76328571,
+    38.97442847
+  ],
+  "trips_count": 224851,
+  "trip_type_counts": {
+    "": 224851
+  },
+  "stop_times": {
+    "rows": 6227078,
+    "missing_time_rows": 0,
+    "invalid_time_rows": 0,
+    "over_24h_rows": 301354,
+    "departure_before_arrival": 0,
+    "first_rows": [
+      {
+        "global_id": "2391549367",
+        "stop_times_id": "",
+        "trip_id": "951_3125297_5_702",
+        "arrival_time": "10:28:00",
+        "departure_time": "10:28:00",
+        "stop_id": "13817",
+        "shape_dist_traveled": "",
+        "pickup_type": "",
+        "stop_headsign": "",
+        "stop_sequence": "7",
+        "trip_type": "",
+        "stop_interval": "",
+        "": ""
+      },
+      {
+        "global_id": "2391549368",
+        "stop_times_id": "",
+        "trip_id": "951_3125296_3_702",
+        "arrival_time": "08:08:00",
+        "departure_time": "08:08:00",
+        "stop_id": "13817",
+        "shape_dist_traveled": "",
+        "pickup_type": "",
+        "stop_headsign": "",
+        "stop_sequence": "7",
+        "trip_type": "",
+        "stop_interval": "",
+        "": ""
+      },
+      {
+        "global_id": "2391549369",
+        "stop_times_id": "",
+        "trip_id": "951_3125296_18_301",
+        "arrival_time": "20:57:00",
+        "departure_time": "20:57:00",
+        "stop_id": "13817",
+        "shape_dist_traveled": "",
+        "pickup_type": "",
+        "stop_headsign": "",
+        "stop_sequence": "7",
+        "trip_type": "",
+        "stop_interval": "",
+        "": ""
+      },
+      {
+        "global_id": "2391549370",
+        "stop_times_id": "",
+        "trip_id": "951_3125297_1_301",
+        "arrival_time": "05:35:00",
+        "departure_time": "05:35:00",
+        "stop_id": "13817",
+        "shape_dist_traveled": "",
+        "pickup_type": "",
+        "stop_headsign": "",
+        "stop_sequence": "7",
+        "trip_type": "",
+        "stop_interval": "",
+        "": ""
+      },
+      {
+        "global_id": "2391549371",
+        "stop_times_id": "",
+        "trip_id": "951_3125297_25_301",
+        "arrival_time": "23:43:00",
+        "departure_time": "23:43:00",
+        "stop_id": "13817",
+        "shape_dist_traveled": "",
+        "pickup_type": "",
+        "stop_headsign": "",
+        "stop_sequence": "7",
+        "trip_type": "",
+        "stop_interval": "",
+        "": ""
+      },
+      {
+        "global_id": "2391549372",
+        "stop_times_id": "",
+        "trip_id": "951_3125296_20_301",
+        "arrival_time": "22:15:00",
+        "departure_time": "22:15:00",
+        "stop_id": "13817",
+        "shape_dist_traveled": "",
+        "pickup_type": "",
+        "stop_headsign": "",
+        "stop_sequence": "7",
+        "trip_type": "",
+        "stop_interval": "",
+        "": ""
+      },
+      {
+        "global_id": "2391549373",
+        "stop_times_id": "",
+        "trip_id": "951_3125297_18_301",
+        "arrival_time": "18:10:00",
+        "departure_time": "18:10:00",
+        "stop_id": "13817",
+        "shape_dist_traveled": "",
+        "pickup_type": "",
+        "stop_headsign": "",
+        "stop_sequence": "7",
+        "trip_type": "",
+        "stop_interval": "",
+        "": ""
+      },
+      {
+        "global_id": "2391549374",
+        "stop_times_id": "",
+        "trip_id": "951_3125297_21_301",
+        "arrival_time": "21:12:00",
+        "departure_time": "21:12:00",
+        "stop_id": "13817",
+        "shape_dist_traveled": "",
+        "pickup_type": "",
+        "stop_headsign": "",
+        "stop_sequence": "7",
+        "trip_type": "",
+        "stop_interval": "",
+        "": ""
+      },
+      {
+        "global_id": "2391549375",
+        "stop_times_id": "",
+        "trip_id": "951_3125297_14_301",
+        "arrival_time": "15:22:00",
+        "departure_time": "15:22:00",
+        "stop_id": "13817",
+        "shape_dist_traveled": "",
+        "pickup_type": "",
+        "stop_headsign": "",
+        "stop_sequence": "7",
+        "trip_type": "",
+        "stop_interval": "",
+        "": ""
+      },
+      {
+        "global_id": "2391549376",
+        "stop_times_id": "",
+        "trip_id": "951_3125297_11_301",
+        "arrival_time": "13:16:00",
+        "departure_time": "13:16:00",
+        "stop_id": "13817",
+        "shape_dist_traveled": "",
+        "pickup_type": "",
+        "stop_headsign": "",
+        "stop_sequence": "7",
+        "trip_type": "",
+        "stop_interval": "",
+        "": ""
+      }
+    ]
+  },
+  "status": "AUDITED_COMMUNITY_FEED_NOT_FULL_TRANSPORT_ACCESSIBILITY_RESULT",
+  "agency_ids_with_missing_url": [
+    "61",
+    "101",
+    "103",
+    "601"
+  ],
+  "coverage_warning": "No route_type=1 metro; no verified MCD coverage. Surface-only community feed.",
+  "freshness_warning": "Archive is from 2026-06-30; calendar end 2030 is not proof of November accuracy.",
+  "full_gtfs_validity_confirmed": false
+}

@@ -1,0 +1,10 @@
+{
+  "source_url": "https://files.mobilitydatabase.org/mdb-3226/mdb-3226-202606301640/mdb-3226-202606301640.zip",
+  "source_sha256": "dec3ec0ccc2efb7f1327ee6f26a0636a4a271494490e6debedcb2c1ccc579e76",
+  "matched_stops": 46,
+  "minimum_elapsed_min": 0.0,
+  "maximum_elapsed_min": 86.0,
+  "geometry": "source GTFS stop points only; no fabricated route lines",
+  "source_freshness": "unverified June archive used for November service date",
+  "license": "unconfirmed; local review only"
+}

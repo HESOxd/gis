@@ -1,0 +1,47 @@
+stop_id,name,arrival_seconds,elapsed_minutes,lon,lat,is_origin,service_date,departure,route_id,route_short_name,scope
+3949,Метрогородок,28800,0.0,37.76740908,55.82880752,True,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+5365,Метрогородок,28860,1.0,37.76621185,55.8286948,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3948,Детские ясли-сад,29040,4.0,37.76365738,55.82717052,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3923,Монтажная ул.,29100,5.0,37.75877062,55.82480968,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3924,Консультативно-диагностический центр,29160,6.0,37.75532705,55.82301887,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3925,Тагильская ул.,29280,8.0,37.75089068,55.82072335,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3944,Плодоовощной комбинат,29340,9.0,37.74323141,55.81762039,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+7110,Метро «Бульвар Рокоссовского»,29460,11.0,37.73489068,55.81294664,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3706,Районный центр «Янтарь»,29520,12.0,37.73086886,55.81065466,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+8696,Просторная ул.,29580,13.0,37.7266819,55.80709551,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3705,Черкизово,29700,15.0,37.72689301,55.80230284,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3704,Халтуринская ул.,29760,16.0,37.72850093,55.79929487,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+1002231,Зельев переулок,29880,18.0,37.72473853,55.79771108,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+14882,Метро «Преображенская площадь»,29940,19.0,37.71766268,55.7964534,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6242,Преображенская площадь,30120,22.0,37.70927947,55.79524841,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3445,Трамв. депо им. Русакова,30240,24.0,37.69947064,55.79456422,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6365,Малая Остроумовская улица,30360,26.0,37.690769,55.79319443,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6366,Клуб Русакова - Сцена «Мельников»,30420,27.0,37.68653569,55.7915125,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+1002188,Метро «Сокольники»,30480,28.0,37.68092463,55.78931715,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6164,МЦД Митьково,30600,30.0,37.67560718,55.78526693,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6165,Леснорядская улица,30720,32.0,37.67039099,55.78170137,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6166,Метро «Красносельская»,30840,34.0,37.66659557,55.77971829,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+13919,Метро «Комсомольская»,31020,37.0,37.65623168,55.77552831,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+5339,Каланчёвская улица,31200,40.0,37.65059755,55.77652218,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3422,Каланчёвская улица,31740,49.0,37.64957201,55.7760724,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+13920,Метро «Комсомольская»,31920,52.0,37.65583193,55.77528444,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+4190,Метро «Красносельская»,32100,55.0,37.66570764,55.7791991,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6760,Леснорядская улица,32220,57.0,37.6707031,55.78173574,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6157,МЦД Митьково,32340,59.0,37.67586004,55.78534016,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+14018,Метро «Сокольники»,32400,60.0,37.68108697,55.78926192,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3702,Клуб Русакова - Сцена «Мельников»,32520,62.0,37.68664524,55.79142768,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6158,М. Остроумовская ул.,32640,64.0,37.69116107,55.7931836,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6159,Трамвайное депо имени Русакова,32760,66.0,37.69824516,55.79429628,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3703,Преображенская площадь,32880,68.0,37.70967437,55.79500332,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6241,Метро «Преображенская площадь»,33000,70.0,37.71787001,55.79639691,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+1002232,Зельев пер.,33060,71.0,37.72478577,55.79760767,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+10492,Халтуринская ул.,33180,73.0,37.72904693,55.79907296,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3660,Черкизово,33240,74.0,37.72740651,55.80207044,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+8697,Просторная ул.,33360,76.0,37.72701464,55.80693203,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6244,Районный центр «Янтарь»,33420,77.0,37.73051178,55.8102877,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+7118,Метро «Бульвар Рокоссовского»,33540,79.0,37.73543228,55.81315975,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3926,Плодоовощной комбинат,33660,81.0,37.74323705,55.81750915,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3945,Тагильская улица,33780,83.0,37.7507949,55.82058032,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3946,Консультативно-диагностический центр,33840,84.0,37.75508015,55.82273816,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+3947,Монтажная ул.,33900,85.0,37.75851971,55.82451206,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility
+6245,Детские ясли-сад,33960,86.0,37.76380941,55.82709186,False,20261102,08:00:00,422,13,selected-route stop-to-stop; not city accessibility

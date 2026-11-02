@@ -1,0 +1,13 @@
+{
+  "valid_layers": 7,
+  "reopened": true,
+  "relative_paths": true,
+  "reader_layouts": [
+    "Портфолио · Трамвай 13 · остановочный пилот"
+  ],
+  "unchanged_analytical_files": 13,
+  "source_syntax_valid": true,
+  "presentation_only": true,
+  "all_outputs_regenerated": true,
+  "gallery": "../portfolio-maps/all-maps-city.html"
+}
