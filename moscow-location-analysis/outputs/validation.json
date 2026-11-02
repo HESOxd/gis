@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "layers": {
+    "districts": 2,
+    "hexagons": 245,
+    "top5": 5,
+    "top5_buffers": 5,
+    "poi": 662,
+    "metro_hubs": 8,
+    "homes": 713,
+    "walk_network": 22743
+  },
+  "qgis_saved_and_reopened": true,
+  "qgis_valid_layers": 11,
+  "absolute_workspace_paths": false,
+  "map_visual_review": "passed",
+  "checks": [
+    "population conservation",
+    "finite scores",
+    "unique cell and OSM IDs",
+    "eligible top5",
+    "top5 center spacing >=600m",
+    "all exported geometries valid",
+    "metric CRS",
+    "portable QGIS sources"
+  ],
+  "cartography_report": "cartography_validation.json"
+}

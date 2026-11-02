@@ -1,0 +1,14 @@
+{
+  "valid_layers": 11,
+  "reopened": true,
+  "relative_paths": true,
+  "reader_layouts": [
+    "Портфолио · Места для кофейни",
+    "Портфолио · Устойчивость выбора"
+  ],
+  "unchanged_analytical_files": 20,
+  "source_syntax_valid": true,
+  "presentation_only": true,
+  "all_outputs_regenerated": true,
+  "gallery": "../portfolio-maps/all-maps-city.html"
+}
