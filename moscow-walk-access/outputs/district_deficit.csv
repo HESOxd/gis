@@ -1,0 +1,5 @@
+﻿district,kind,homes,population,homes_within_10,people_est_within_10,homes_within_15,people_est_within_15,homes_over_15,people_est_over_15,homes_unknown,people_est_unknown,over_15_pct_homes
+Богородское,clinic,452,108907,171,48462,167,27463,112,31374,2,1608,24.8
+Преображенское,clinic,261,89475,160,53128,71,24298,28,12032,2,17,10.7
+Богородское,school,452,108907,425,94740,20,10608,5,1952,2,1608,1.1
+Преображенское,school,261,89475,256,88811,3,647,0,0,2,17,0.0
