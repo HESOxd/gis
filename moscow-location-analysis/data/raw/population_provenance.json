@@ -1,0 +1,12 @@
+{
+  "status": "SECONDARY_TRANSCRIPTION_NOT_PRIMARY_VERIFIED",
+  "retrieved": "2026-11-01",
+  "reference_date": "2025-01-01",
+  "primary_url": "https://rosstat.gov.ru/storage/mediabank/%D0%A1hisl_MO_01-01-2025.xlsx",
+  "primary_download_result": "connection timeout; original workbook not available locally",
+  "secondary_sources": [
+    {"district": "Богородское", "population": 108907, "url": "https://ru.wikipedia.org/wiki/Богородское_(район_Москвы)", "page_revision": 154006894},
+    {"district": "Преображенское", "population": 89475, "url": "https://ru.wikipedia.org/wiki/Преображенское_(район_Москвы)"}
+  ],
+  "note": "Values transcribed from district infoboxes citing the same Rosstat workbook. These are not observed residents per building. Recheck original workbook before treating totals as verified. Building population is a floor-area-weighted model."
+}
