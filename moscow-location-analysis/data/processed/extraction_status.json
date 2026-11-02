@@ -1,0 +1,11 @@
+{
+  "stage": "raw_candidates_not_deduplicated_or_clipped",
+  "source": "../moscow-walk-access/data/raw/manifest.json",
+  "counts": {
+    "metro": 116,
+    "cafe": 467,
+    "stop": 964,
+    "office": 807
+  },
+  "note": "Transit points are infrastructure proxies, not measured passenger flow."
+}
