@@ -1,0 +1,238 @@
+[
+  {
+    "scene": "LC09_L2SP_178021_20250725_02_T1",
+    "kind": "landsat",
+    "asset": "lwir11",
+    "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/178/021/LC09_L2SP_178021_20250725_20250727_02_T1/LC09_L2SP_178021_20250725_20250727_02_T1_ST_B10.TIF",
+    "sha256": "a400685dfa34e90ad23ad0196fe4c03a69e554a8e465acf142c4f9e3ea0d5e8f",
+    "bytes": 57230,
+    "crs": "EPSG:32637",
+    "shape": [
+      212,
+      163
+    ],
+    "transform": [
+      30.0,
+      0.0,
+      416595.0,
+      0.0,
+      -30.0,
+      6188955.0
+    ],
+    "raster_metadata": [
+      {
+        "unit": "kelvin",
+        "scale": 0.00341802,
+        "nodata": 0,
+        "offset": 149,
+        "data_type": "uint16",
+        "spatial_resolution": 30
+      }
+    ]
+  },
+  {
+    "scene": "LC09_L2SP_178021_20250725_02_T1",
+    "kind": "landsat",
+    "asset": "qa_pixel",
+    "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/178/021/LC09_L2SP_178021_20250725_20250727_02_T1/LC09_L2SP_178021_20250725_20250727_02_T1_QA_PIXEL.TIF",
+    "sha256": "d38a66cef5ad46dee58a80417157c0bfb7d3601c01e684e7b7aa603a65dff871",
+    "bytes": 2571,
+    "crs": "EPSG:32637",
+    "shape": [
+      212,
+      163
+    ],
+    "transform": [
+      30.0,
+      0.0,
+      416595.0,
+      0.0,
+      -30.0,
+      6188955.0
+    ],
+    "raster_metadata": [
+      {
+        "unit": "bit index",
+        "nodata": 1,
+        "data_type": "uint16",
+        "spatial_resolution": 30
+      }
+    ]
+  },
+  {
+    "scene": "LC09_L2SP_178021_20250725_02_T1",
+    "kind": "landsat",
+    "asset": "qa_radsat",
+    "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/178/021/LC09_L2SP_178021_20250725_20250727_02_T1/LC09_L2SP_178021_20250725_20250727_02_T1_QA_RADSAT.TIF",
+    "sha256": "778fec32bc24bd37191d27608b7d58231478f3676ae7f8db2e854c640a52c99e",
+    "bytes": 719,
+    "crs": "EPSG:32637",
+    "shape": [
+      212,
+      163
+    ],
+    "transform": [
+      30.0,
+      0.0,
+      416595.0,
+      0.0,
+      -30.0,
+      6188955.0
+    ],
+    "raster_metadata": [
+      {
+        "unit": "bit index",
+        "data_type": "uint16",
+        "spatial_resolution": 30
+      }
+    ]
+  },
+  {
+    "scene": "LC09_L2SP_178021_20250725_02_T1",
+    "kind": "landsat",
+    "asset": "qa",
+    "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/178/021/LC09_L2SP_178021_20250725_20250727_02_T1/LC09_L2SP_178021_20250725_20250727_02_T1_ST_QA.TIF",
+    "sha256": "b59469a2ff92282371e7ff3fbf958cd4a21ba5d4ba29972f30920cf889a253b4",
+    "bytes": 29611,
+    "crs": "EPSG:32637",
+    "shape": [
+      212,
+      163
+    ],
+    "transform": [
+      30.0,
+      0.0,
+      416595.0,
+      0.0,
+      -30.0,
+      6188955.0
+    ],
+    "raster_metadata": [
+      {
+        "unit": "kelvin",
+        "scale": 0.01,
+        "nodata": -9999,
+        "data_type": "int16",
+        "spatial_resolution": 30
+      }
+    ]
+  },
+  {
+    "scene": "LC09_L2SP_178021_20250725_02_T1",
+    "kind": "landsat",
+    "asset": "cdist",
+    "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/178/021/LC09_L2SP_178021_20250725_20250727_02_T1/LC09_L2SP_178021_20250725_20250727_02_T1_ST_CDIST.TIF",
+    "sha256": "0e5478c125bfe6accb2479069ba5c1bc8348ded3a94306ebd1b2e1b2a483022a",
+    "bytes": 15939,
+    "crs": "EPSG:32637",
+    "shape": [
+      212,
+      163
+    ],
+    "transform": [
+      30.0,
+      0.0,
+      416595.0,
+      0.0,
+      -30.0,
+      6188955.0
+    ],
+    "raster_metadata": [
+      {
+        "unit": "kilometer",
+        "scale": 0.01,
+        "nodata": -9999,
+        "data_type": "int16",
+        "spatial_resolution": 30
+      }
+    ]
+  },
+  {
+    "scene": "S2A_37UDB_20250726_0_L2A",
+    "kind": "sentinel",
+    "asset": "red",
+    "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/37/U/DB/2025/7/S2A_37UDB_20250726_0_L2A/B04.tif",
+    "sha256": "7a8720e56c72b485d05ab5fff4466d149ef6427b7cdea2da4f1ce4d92eeb2cdf",
+    "bytes": 458164,
+    "crs": "EPSG:32637",
+    "shape": [
+      634,
+      488
+    ],
+    "transform": [
+      10.0,
+      0.0,
+      416600.0,
+      0.0,
+      -10.0,
+      6188940.0
+    ],
+    "raster_metadata": [
+      {
+        "nodata": 0,
+        "data_type": "uint16",
+        "spatial_resolution": 10,
+        "scale": 0.0001,
+        "offset": -0.1
+      }
+    ]
+  },
+  {
+    "scene": "S2A_37UDB_20250726_0_L2A",
+    "kind": "sentinel",
+    "asset": "nir",
+    "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/37/U/DB/2025/7/S2A_37UDB_20250726_0_L2A/B08.tif",
+    "sha256": "6c2984a815567b2752a225aaf7d73a9155bae1f71e4cc7a69e494400ba55d144",
+    "bytes": 518651,
+    "crs": "EPSG:32637",
+    "shape": [
+      634,
+      488
+    ],
+    "transform": [
+      10.0,
+      0.0,
+      416600.0,
+      0.0,
+      -10.0,
+      6188940.0
+    ],
+    "raster_metadata": [
+      {
+        "nodata": 0,
+        "data_type": "uint16",
+        "spatial_resolution": 10,
+        "scale": 0.0001,
+        "offset": -0.1
+      }
+    ]
+  },
+  {
+    "scene": "S2A_37UDB_20250726_0_L2A",
+    "kind": "sentinel",
+    "asset": "scl",
+    "url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/37/U/DB/2025/7/S2A_37UDB_20250726_0_L2A/SCL.tif",
+    "sha256": "753add59ecc51f82d9320b905def510465114139daea06a4b70aedab119adf9e",
+    "bytes": 8489,
+    "crs": "EPSG:32637",
+    "shape": [
+      317,
+      244
+    ],
+    "transform": [
+      20.0,
+      0.0,
+      416600.0,
+      0.0,
+      -20.0,
+      6188940.0
+    ],
+    "raster_metadata": [
+      {
+        "nodata": 0,
+        "data_type": "uint8",
+        "spatial_resolution": 20
+      }
+    ]
+  }
+]
