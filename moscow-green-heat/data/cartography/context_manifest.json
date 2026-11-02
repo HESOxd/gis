@@ -1,0 +1,19 @@
+{
+  "source": "OpenStreetMap snapshot 2026-11-01; reused project1 XML",
+  "attribution": "© OpenStreetMap contributors, ODbL",
+  "context_only": true,
+  "files": {
+    "streets": {
+      "features": 2617,
+      "sha256": "fd22581c108a213b16e9454c13ab29821e997d25a71b9d481816b22cf48d9547"
+    },
+    "landmarks": {
+      "features": 99,
+      "sha256": "6438a05f90e405652a3eb0a78fefc0ae4cf9aa3c5bb7b62653ceba5e7e74c29f"
+    },
+    "metro": {
+      "features": 8,
+      "sha256": "ed614819d92215fe6f5a1778ff57b8cbed8c01a1807bfd5264c8b044ea2daffd"
+    }
+  }
+}
